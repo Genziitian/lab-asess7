@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: noticeboard-container
-        # Make sure to replace YOUR_DOCKERHUB_USERNAME with your actual Docker Hub username
-        image: YOUR_DOCKERHUB_USERNAME/noticeboard:latest
+        # Updated with your actual Docker Hub username
+        image: sriram1108/noticeboard:latest
         ports:
         - containerPort: 80
         imagePullPolicy: Always
